@@ -1,9 +1,11 @@
-body {
+.box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: black;
+    width: 350px;
+    margin-top: 25px;
 }
 
 .container {
@@ -17,23 +19,35 @@ button {
     height: 70px;
     margin: 5px;
     font-size: 25px;
+    color: white;
+    background-color: red;
+    border: none;
 }
 
 h1 {
     display: flex;
-    background-color: gray;
+    background-color: black;
     padding-top: 24px;
     margin: 0;
     width: 320px;
+    color: white;
 }
 
 .operator,
 .calculate {
     background-color: orange;
+    color: white;
 }
 
 #zero {
     width: 150px;
     height: 70px;
     text-align: left;
+}
+
+.sign,
+.clear,
+.perc {
+    background-color: yellow;
+    color: black;
 }
